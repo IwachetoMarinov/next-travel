@@ -5,7 +5,8 @@
     "@typescript-eslint/no-unused-vars": ["warn", { "args": "none" }],
     "import/no-unresolved": "error",
     "import/named": "off",
-    "react/no-unescaped-entities": 0,
+    "react/no-unescaped-entities": "error",
+    // "react/no-unescaped-entities": 0,
     "no-console": "warn"
   }
 }

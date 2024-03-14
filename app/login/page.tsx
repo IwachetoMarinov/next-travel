@@ -129,7 +129,7 @@ export default function Login() {
 
           <div className="h-20 mx-auto">
             <span className="text-sm text-gray-600">
-              Don't have an account?
+              do not have an account?
               <Link href={REGISTER_ROUTE}>
                 <span className="text-blue-500 font-semibold text-md">
                   {" "}

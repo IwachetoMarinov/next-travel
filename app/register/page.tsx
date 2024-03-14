@@ -37,7 +37,7 @@ const formSchema = z
       .min(6, { message: "Confirm Password must be at least 3 characters" }),
   })
   .refine((data) => data.password === data.confirmPassword, {
-    message: "Passwords don't match",
+    message: "Passwords do not match",
     path: ["confirmPassword"],
   });
 
@@ -185,7 +185,7 @@ export default function Register() {
 
           <div className="h-20 mx-auto">
             <span className="text-sm text-gray-600">
-              Don't have an account?
+              do not have an account?
               <Link href={LOGIN_ROUTE}>
                 <span className="text-blue-500 font-semibold text-md">
                   {" "}
