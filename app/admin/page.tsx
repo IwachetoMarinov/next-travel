@@ -2,7 +2,7 @@
 import Header from "@/components/layout/header";
 import Sidebar from "@/components/layout/sidebar";
 
-export default function Admin({ children }: { children: React.ReactNode }) {
+export default function Admin({ children }: { children: any }) {
   return (
     <>
       <Header />

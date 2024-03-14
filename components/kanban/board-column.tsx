@@ -105,7 +105,7 @@ export function BoardColumn({ column, tasks, isOverlay }: BoardColumnProps) {
   );
 }
 
-export function BoardContainer({ children }: { children: React.ReactNode }) {
+export function BoardContainer({ children }: { children: any }) {
   const dndContext = useDndContext();
 
   const variations = cva(

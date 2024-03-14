@@ -4,7 +4,7 @@ import News from "@/components/homepage/news";
 export default async function Home({
   children,
 }: {
-  children: React.ReactNode;
+  children: any;
 }) {
   const data = await getUsers();
   const news = await getDatabase("news");
