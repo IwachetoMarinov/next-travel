@@ -1,8 +1,7 @@
-"use client";
 import Header from "@/components/layout/header";
 import Sidebar from "@/components/layout/sidebar";
 
-export default function Admin({ children }: { children: any }) {
+export default function Admin({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Header />

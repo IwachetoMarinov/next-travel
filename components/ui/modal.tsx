@@ -12,7 +12,7 @@ interface ModalProps {
   description: string;
   isOpen: boolean;
   onClose: () => void;
-  children?: any;
+  children?: React.ReactNode;
 }
 
 export const Modal: React.FC<ModalProps> = ({
