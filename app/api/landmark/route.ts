@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { NextRequest, NextResponse } from "next/server";
-import jsdom from "jsdom";
-// const jsdom = require("jsdom");
+// import jsdom from "jsdom";
+const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
 const url = "https://www.jonas-k.me/articles/";

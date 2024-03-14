@@ -1,11 +1,7 @@
 import { getUsers, getDatabase, addNew } from "@/app/api/database/route";
 import News from "@/components/homepage/news";
 
-export default async function Home({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default async function Home() {
   const data = await getUsers();
   const news = await getDatabase("news");
   // const newResponse = await addNew(
@@ -44,7 +40,6 @@ export default async function Home({
         <h3>HOME</h3>
         <main className="w-full pt-16">
           <News news={data} />
-          {children}
         </main>
       </div>
     </>
