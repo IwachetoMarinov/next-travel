@@ -12,7 +12,7 @@ export default async function Home() {
 
   console.log("news", news);
 
-  const res = await fetch("http://localhost:3000/api/hello", {
+  const res = await fetch(`${process.env.NEXT_API_URL}/api/hello`, {
     method: "GET",
     headers: {
       cache: "no-cache",
@@ -22,7 +22,7 @@ export default async function Home() {
   const json = await res.json();
   // console.log("GET response", json);
 
-  const resPost = await fetch("http://localhost:3000/api/landmark", {
+  const resPost = await fetch(`${process.env.NEXT_API_URL}/api/landmark`, {
     method: "POST",
     body: JSON.stringify({ name: "John" }),
     headers: {
