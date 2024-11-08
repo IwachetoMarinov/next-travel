@@ -1,0 +1,9 @@
+{
+    "Index": {
+        "title": "Пътешествия"
+    },
+    "LocaleSwitcher": {
+        "label": "Смени езика",
+        "locale": "{locale, select, bg {bg Български} en {🇺🇸 English} other {Unknown}}"
+    }
+}
