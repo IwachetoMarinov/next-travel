@@ -3,7 +3,6 @@
 import * as z from "zod";
 import React, { Suspense, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { useSearchParams } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { PROFILE_ROUTE, REGISTER_ROUTE } from "@/constants/routes";
 import { auth } from "@/lib/firebase/firebase";
@@ -20,8 +19,6 @@ const formSchema = z.object({
 type UserFormValue = z.infer<typeof formSchema>;
 
 export default function Login() {
-  const searchParams = useSearchParams();
-  const callbackUrl = searchParams?.get("callbackUrl");
   const [loading, setLoading] = useState(false);
   const defaultValues = {
     email: "",
@@ -47,7 +44,7 @@ export default function Login() {
     console.log("credentials", {
       email: data.email,
       password: data.password,
-      callbackUrl: callbackUrl ?? "/dashboard",
+      callbackUrl: "/dashboard",
     });
   };
 
