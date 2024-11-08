@@ -1,7 +1,7 @@
 "use client";
 
 import * as z from "zod";
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { Button } from "@/components/ui/button";
 import { useSearchParams } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -53,13 +53,15 @@ export default function Login() {
 
   return (
     <>
-      <main className="w-full p-5 flex items-center justify-center">
-        <section className="w-1/3">
-          <Button disabled={loading} className="ml-auto w-full" type="submit">
-            Continue With Email
-          </Button>
-        </section>
-      </main>
+      <Suspense fallback={<div>Loading...</div>}>
+        <main className="w-full p-5 flex items-center justify-center">
+          <section className="w-1/3">
+            <Button disabled={loading} className="ml-auto w-full" type="submit">
+              Continue With Email
+            </Button>
+          </section>
+        </main>
+      </Suspense>
     </>
   );
 }
