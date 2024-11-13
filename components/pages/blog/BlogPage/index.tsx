@@ -1,4 +1,5 @@
 import Gallery from "@/components/gallery";
+import { GalleryInterface } from "@/interfaces/GalleryInterface";
 import { mapGalleryImages } from "@/services/mapImagesService";
 import React from "react";
 
@@ -7,7 +8,7 @@ interface IProps {
 }
 
 const BlogPage = ({ data }: IProps) => {
-  const images = mapGalleryImages(data?.gallery);
+  const images: any = mapGalleryImages(data?.gallery);
 
   return (
     <>
