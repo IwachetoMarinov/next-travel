@@ -1,15 +1,14 @@
 "use client";
 import React from "react";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GalleryInterface } from "@/interfaces/GalleryInterface";
-
-import dynamic from "next/dynamic";
 import CustomNextArrow from "./components/CustomNextArrow";
 import CustomPrevArrow from "./components/CustomPrevArrow";
 import Image from "next/image";
 // Dynamically import react-slick only on the client side
-const Slider = dynamic(() => import("react-slick"), { ssr: false });
+// const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 interface IProps {
   images: GalleryInterface[];
