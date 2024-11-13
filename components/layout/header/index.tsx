@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import { Button } from "@/components/ui/button";
 import Navigation from "../navigation";
+import UserProfile from "@/components/UserProfile";
 
 export default function Header() {
   return (
@@ -8,10 +8,7 @@ export default function Header() {
       <div className="min-h-12 px-5 flex items-center justify-between">
         <div> logo</div>
         <Navigation />
-        <div>
-          User profile
-          <Button>Click me</Button>
-        </div>
+        <UserProfile />
       </div>
     </header>
   );

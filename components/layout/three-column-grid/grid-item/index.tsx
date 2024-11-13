@@ -29,7 +29,7 @@ export default function GridItem({ data }: IProps) {
 
       <p className="text-center">{data?.shortDescription}</p>
 
-      <CustomLink title="Read more" type="read-more" href={data?.href} />
+      <CustomLink title="Прочети повече" type="read-more" href={data?.href} />
     </article>
   );
 }

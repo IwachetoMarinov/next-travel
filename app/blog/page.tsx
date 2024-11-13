@@ -16,11 +16,11 @@ export default async function Header() {
   }
 }`);
 
-  const data = mapEvents(events, 'events');
+  const data = mapEvents(events, "blog");
 
   return (
     <main className="page-container">
-      <PageHeader title={"Събития"} />
+      <PageHeader title={"Блог"} />
       <ThreeColumnGrid data={data} />
     </main>
   );

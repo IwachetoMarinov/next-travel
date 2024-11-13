@@ -1,13 +1,11 @@
 import clsx from "clsx";
 import Image from "next/image";
 import { client } from "@/lib/sanity/sanity";
-import News from "@/components/pages/news";
 import PageHeader from "@/components/layout/page-header";
 import { PortableText } from "@portabletext/react";
 
 export default async function PageNew({ params }: Readonly<{ params: any }>) {
   const eventId = params?._id ? params._id : null;
-  console.log("eventId", eventId);
 
   const newData = await client.fetch(`*[_type == 'news' && _id == '${eventId}']{
   ...,

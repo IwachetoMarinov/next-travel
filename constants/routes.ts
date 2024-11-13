@@ -5,6 +5,7 @@ export const HOME_ROUTE = "/";
 export const ABOUT_ROUTE = "/about";
 export const EVENTS_ROUTE = "/events";
 export const NEWS_ROUTE = "/news";
+export const BLOG_ROUTE = "/blog";
 
 export const navigation = [
   {
@@ -22,6 +23,10 @@ export const navigation = [
   {
     title: "Новини",
     href: NEWS_ROUTE,
+  },
+  {
+    title: "Блог",
+    href: BLOG_ROUTE,
   },
   {
     title: "Профил",

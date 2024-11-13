@@ -25,7 +25,7 @@ export default function NewItem({ data }: Readonly<{ data: any }>) {
       <p className="text-center">{data?.short_description}</p>
 
       <CustomLink
-        title="Read more"
+        title="Прочети повече"
         type="read-more"
         href={`/news/${data?._id}`}
       />

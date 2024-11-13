@@ -22,11 +22,13 @@ export default async function EventDetails({
         url
       },
       alt,
-      caption
+      caption 
     }
   }`);
 
-  console.log("event", event);
+  console.log("event", event[0]);
+
+  // console.dir(event, { depth: null });
 
   return <div>EventDetails</div>;
 }

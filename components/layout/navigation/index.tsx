@@ -1,6 +1,6 @@
 import React from "react";
-import { navigation } from "@/constants/routes";
 import Link from "next/link";
+import { navigation } from "@/constants/routes";
 
 export default function Navigation() {
   return (

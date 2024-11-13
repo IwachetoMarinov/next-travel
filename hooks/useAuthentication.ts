@@ -1,3 +1,4 @@
+"use client";
 import { LOGIN_ROUTE, PROFILE_ROUTE, REGISTER_ROUTE } from "@/constants/routes";
 import { AuthContext } from "@/provider/AuthProvider";
 import { useRouter } from "next/navigation";
@@ -23,6 +24,8 @@ const useAuthentication = () => {
     //     router.push(PROFILE_ROUTE);
     // }
   }, []);
+
+  return { user: userInfo };
 };
 
 export default useAuthentication;

@@ -1,7 +1,6 @@
 import React from "react";
 import GridItem from "./grid-item";
 import { IThreeColumnGridInterface } from "@/interfaces/ThreeColumnGridInterface";
-// import NewItem from "./components/new-item";
 
 interface Iprops {
   data: IThreeColumnGridInterface[];
