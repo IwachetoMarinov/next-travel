@@ -1,10 +1,12 @@
-import clsx from "clsx";
+import React from "react";
 
-export default function Header() {
+export default function About() {
+  const aboutData = "About page";
+
   return (
     <header className="flex items-center justify-end">
       <div>
-        <h1>About page</h1>
+        <h1>{aboutData}</h1>
       </div>
     </header>
   );

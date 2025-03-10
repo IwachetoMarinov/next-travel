@@ -1,9 +1,19 @@
 import React from "react";
 
-export default function PageHeader({ title }: Readonly<{ title: string }>) {
+interface IProps {
+  title: string;
+  textColor?: string;
+}
+
+export default function PageHeader({
+  title,
+  textColor = "text-[#1e1e1e]",
+}: IProps) {
   return (
-    <div>
-      <h1 className="text-3xl text-gray-700 text-center my-5">{title}</h1>
-    </div>
+    <h1
+      className={`text-3xl lg:text-[50px] uppercase text-center my-8 lg:my-16 font-bold ${textColor}`}
+    >
+      {title}
+    </h1>
   );
 }

@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import React from "react";
 
 export default async function Profile() {
   return (

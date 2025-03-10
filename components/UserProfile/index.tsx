@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import useAuthentication from "@/hooks/useAuthentication";
 import CustomLink from "@/components/ui/Link";
@@ -8,11 +8,7 @@ import Dropdown from "@/components/ui/Dropdown";
 
 const UserProfile = () => {
   const { user } = useAuthentication();
-  const [isOpen, setIsOpen] = useState<Boolean>(false);
-
-  const toggleDropdown = () => {
-    console.log("toggleDropdown");
-  };
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <>

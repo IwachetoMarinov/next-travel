@@ -1,7 +1,6 @@
 "use client";
 
-import clsx from "clsx";
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 
 type Props = {
   children: ReactNode;

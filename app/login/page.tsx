@@ -1,56 +1,59 @@
 "use client";
 
-import * as z from "zod";
-import { useState, Suspense } from "react";
+// import * as z from "zod";
+import React, { useState, Suspense, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 // import { useSearchParams } from "next/navigation";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { PROFILE_ROUTE, REGISTER_ROUTE } from "@/constants/routes";
-import { auth } from "@/lib/firebase/firebase";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { useForm } from "react-hook-form";
+// import { zodResolver } from "@hookform/resolvers/zod";
+// import { PROFILE_ROUTE, REGISTER_ROUTE } from "@/constants/routes";
+// import { auth } from "@/lib/firebase/firebase";
+// import { signInWithEmailAndPassword } from "firebase/auth";
+// import { useForm } from "react-hook-form";
 
-const formSchema = z.object({
-  email: z.string().email({ message: "Enter a valid email address" }),
-  password: z
-    .string()
-    .min(3, { message: "Password must be at least 3 characters" }),
-});
+// const formSchema = z.object({
+//   email: z.string().email({ message: "Enter a valid email address" }),
+//   password: z
+//     .string()
+//     .min(3, { message: "Password must be at least 3 characters" }),
+// });
 
-type UserFormValue = z.infer<typeof formSchema>;
+// type UserFormValue = z.infer<typeof formSchema>;
 
 export default function Login() {
   // const searchParams = useSearchParams();
   // const callbackUrl = searchParams?.get("callbackUrl");
   const [loading, setLoading] = useState(false);
-  const defaultValues = {
-    email: "",
-    password: "",
-  };
-  const form = useForm<UserFormValue>({
-    resolver: zodResolver(formSchema),
-    defaultValues,
-  });
+  // const defaultValues = {
+  //   email: "",
+  //   password: "",
+  // };
+  // const form = useForm<UserFormValue>({
+  //   resolver: zodResolver(formSchema),
+  //   defaultValues,
+  // });
 
-  const onSubmit = async (data: UserFormValue) => {
-    try {
-      const response = await signInWithEmailAndPassword(
-        auth,
-        data.email,
-        data.password
-      );
+  useEffect(() => {
+    setLoading(true);
+  }, []);
 
-      console.log("Response ", response);
-    } catch (error) {
-      console.log("Error", error);
-    }
-    console.log("credentials", {
-      email: data.email,
-      password: data.password,
-      callbackUrl: "/dashboard",
-      // callbackUrl: callbackUrl ?? "/dashboard",
-    });
-  };
+  // const onSubmit = async (data: UserFormValue) => {
+  //   try {
+  //     const response = await signInWithEmailAndPassword(
+  //       auth,
+  //       data.email,
+  //       data.password
+  //     );
+
+  //     console.log("Response ", response);
+  //   } catch (error) {
+  //     console.log("Error", error);
+  //   }
+  //   console.log("credentials", {
+  //     email: data.email,
+  //     password: data.password,
+  //     callbackUrl: "/dashboard",
+  //   });
+  // };
 
   return (
     <>

@@ -3,7 +3,11 @@ import Image from "next/image";
 import Heading from "@/components/layout/heading";
 import CustomLink from "@/components/layout/link";
 
-export default function NewItem({ data }: Readonly<{ data: any }>) {
+interface IProps {
+  data: any;
+}
+
+export default function NewItem({ data }: IProps) {
   console.log("NewItem", data);
 
   return (

@@ -1,14 +1,13 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
+import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { GalleryInterface } from "@/interfaces/GalleryInterface";
 import CustomNextArrow from "./components/CustomNextArrow";
 import CustomPrevArrow from "./components/CustomPrevArrow";
-import Image from "next/image";
-// Dynamically import react-slick only on the client side
-// const Slider = dynamic(() => import("react-slick"), { ssr: false });
+import { GalleryInterface } from "@/interfaces/GalleryInterface";
+import { getSnippet } from "@/actions/action";
 
 interface IProps {
   images: GalleryInterface[];
@@ -27,6 +26,15 @@ const Gallery = ({ images }: IProps) => {
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
   };
+
+  const getSnippetHandle = async (value: string) => {
+    const data = await getSnippet(value);
+    console.log("data", data);
+  };
+
+  useEffect(() => {
+    getSnippetHandle("gallery");
+  }, []);
 
   return (
     <section className="w-full carousel-container">
