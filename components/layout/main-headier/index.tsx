@@ -1,3 +1,5 @@
+import React from "react";
+
 interface IProps {
   title: string;
   styleCLass: string | undefined | null;

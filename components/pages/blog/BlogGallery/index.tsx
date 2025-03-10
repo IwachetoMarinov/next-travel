@@ -1,13 +1,13 @@
-import Gallery from "@/components/gallery";
-import { GalleryInterface } from "@/interfaces/GalleryInterface";
-import { mapGalleryImages } from "@/services/mapImagesService";
 import React from "react";
+import Gallery from "@/components/gallery";
+// import { GalleryInterface } from "@/interfaces/GalleryInterface";
+import { mapGalleryImages } from "@/services/mapImagesService";
 
 interface IProps {
   data: any;
 }
 
-const BlogPage = ({ data }: IProps) => {
+const BlogGallery = ({ data }: IProps) => {
   const images: any = mapGalleryImages(data?.gallery);
 
   return (
@@ -17,4 +17,4 @@ const BlogPage = ({ data }: IProps) => {
   );
 };
 
-export default BlogPage;
+export default BlogGallery;

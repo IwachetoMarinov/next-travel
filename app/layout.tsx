@@ -1,7 +1,9 @@
+import React from "react";
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/header";
 import AuthProvider from "@/provider/AuthProvider";
+import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,12 +15,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log("RootLayout");
+
   return (
     <html lang="en">
       <body>
         <AuthProvider>
           <Header />
           {children}
+          <Footer />
         </AuthProvider>
       </body>
     </html>

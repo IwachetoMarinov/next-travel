@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 
 type IProps = {
   children: ReactNode;
@@ -6,7 +6,9 @@ type IProps = {
 
 const Dropdown = ({ children }: IProps) => {
   return (
-    <div className="absolute -bottom-6 left-1/2 translate-x-[-50%] bg-white p-1 shadow-sm">{children}</div>
+    <div className="absolute -bottom-6 left-1/2 translate-x-[-50%] bg-white p-1 shadow-sm">
+      {children}
+    </div>
   );
 };
 

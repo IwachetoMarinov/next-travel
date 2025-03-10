@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import React from "react";
 import { client } from "@/lib/sanity/sanity";
 import PageHeader from "@/components/layout/page-header";
 import ThreeColumnDrid from "@/components/layout/three-column-grid";

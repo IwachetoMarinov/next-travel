@@ -1,11 +1,15 @@
 import React from "react";
 import { MountainIcon } from "@/components/icons";
+import { PortableText } from "@portabletext/react";
+import { getDifficultyColor } from "@/services/colors";
+import Accordeon from "@/components/Accordeon";
 
 interface IProps {
   difficulty: string;
+  content?: any;
 }
 
-const Difficulty = ({ difficulty }: IProps) => {
+const Difficulty = ({ difficulty, content }: IProps) => {
   const array = Array.from({ length: 5 }, (_, i) => i);
   const difficultyArray = array.map((_, index) => {
     return {
@@ -15,13 +19,23 @@ const Difficulty = ({ difficulty }: IProps) => {
   });
 
   return (
-    <div className="flex items-center gap-3 my-3">
-      <p className="font-bold">Ниво на трудност</p>
+    <div className="my-4 lg:my-5">
+      <p
+        className={`font-bold uppercase mb-2 ${getDifficultyColor(+difficulty)}`}
+      >
+        Ниво на трудност
+      </p>
       <div className="flex items-center gap-1">
         {difficultyArray.map((i, index) => (
           <MountainIcon key={index} fill={i.color} width={20} height={20} />
         ))}
       </div>
+
+      {content && (
+        <Accordeon>
+          <PortableText value={content ?? null} />
+        </Accordeon>
+      )}
     </div>
   );
 };
