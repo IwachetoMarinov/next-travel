@@ -133,9 +133,29 @@ body {
   /* Ensure arrows are on top */
 }
 
+.text-orange-500 {
+  color: #f6993f;
+}
+
+.text-green-500 {
+  color: #38a169;
+}
+
+.text-yellow-300 {
+  color: #f6e05e;
+}
+
 .animated-uderline {
   position: relative;
   text-decoration: none;
+}
+
+.text-red-300 {
+  color: #f56565;
+}
+
+.text-purple-700 {
+  color: #6b46c1;
 }
 
 .animated-uderline::after {

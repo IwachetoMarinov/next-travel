@@ -2,8 +2,9 @@ import React from "react";
 import dayjs from "dayjs";
 import Link from "next/link";
 import IconText from "@/components/IconText";
-import { CalendarIcon, PencilIcon } from "@/components/icons";
+// import { PortableText } from "@portabletext/react";
 import AnimatedImage from "@/components/animated-image";
+import { CalendarIcon, PencilIcon } from "@/components/icons";
 import { CheckMateGridInterface } from "@/interfaces/LayoutInterface";
 import ReadMoreButton from "@/components/layout/buttons/ReadMoreButton";
 
@@ -36,14 +37,15 @@ const CheckmateGridItem = ({ data, index }: IProps) => {
         </div>
         {/* Title */}
         <Link href={data.link}>
-          <h2 className="text-2xl font-bold animated-uderline mb-5">
+          <h2 className="text-2xl font-bold mb-5 text-[#0C4D67] cursor-pointer">
             {data.title}
           </h2>
         </Link>
         {/* Description */}
-        <p className="text-lg ld:text-xl text-[#878787] mb-6">
+        <div className="text-lg ld:text-xl text-[#878787] mb-6">
           {data.description}
-        </p>
+          {/* <PortableText value={data?.description || null} /> */}
+        </div>
         {/* Button */}
         <ReadMoreButton link={data.link}> Прочети повече </ReadMoreButton>
       </div>

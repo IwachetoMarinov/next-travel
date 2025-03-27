@@ -33,10 +33,6 @@ export const navigation: NavigationInterface[] = [
     title: "Блог",
     href: BLOG_ROUTE,
   },
-  {
-    title: "Профил",
-    href: PROFILE_ROUTE,
-  },
 ];
 
 export const footerNavigation: NavigationInterface[] = [
@@ -51,9 +47,5 @@ export const footerNavigation: NavigationInterface[] = [
   {
     title: "Условия за ползване",
     href: TERMS_OF_SERVICE_ROUTE,
-  },
-  {
-    title: "FAQ",
-    href: FAQ_ROUTE,
   },
 ];

@@ -11,13 +11,13 @@ interface IProps {
 const GridItemLink = ({
   href,
   children,
-  animated = true,
+  animated = false,
   className = "uppercase text-lg lg:text-2xl font-bold",
 }: IProps) => {
   return (
     <Link
       href={href}
-      className={`line-clamp-2 mb-5 lg:mb-8 ${className} ${animated ? "hover:underline" : ""}`}
+      className={`line-clamp-2 mb-5 lg:mb-8 text-[#0C4D67] ${className} ${animated ? "hover:underline" : ""}`}
     >
       {children}
     </Link>

@@ -12,6 +12,7 @@
     "@hookform/resolvers": "^3.3.4",
     "@portabletext/react": "^3.1.0",
     "@radix-ui/react-slot": "^1.0.2",
+    "@react-google-maps/api": "^2.20.6",
     "@sanity/client": "^6.21.0",
     "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",

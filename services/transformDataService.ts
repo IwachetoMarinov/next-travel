@@ -1,4 +1,5 @@
 import {
+  EventCheckmateInterface,
   EventSidebarDataInteface,
   EventSidebarInteface,
 } from "@/interfaces/EventInterface";
@@ -17,17 +18,24 @@ export const mapNews = (news: any) => {
 };
 
 export const mapEvents = (events: any, type: string) => {
-  let filteredEvents = events.filter(
-    (item: any) => new Date(item.date) > new Date()
-  );
-  let defaultHref = "/event/";
+  // let filteredEvents = events.filter(
+  //   (item: any) => new Date(item.date) > new Date()
+  // );
+  // let defaultHref = "/event/";
 
-  if (type === "blog") {
-    filteredEvents = events.filter(
-      (item: any) => new Date(item.date) < new Date()
-    );
-    defaultHref = "/blog/";
-  }
+  // if (type === "blog") {
+  //   filteredEvents = events.filter(
+  //     (item: any) => new Date(item.date) < new Date()
+  //   );
+  //   defaultHref = "/blog/";
+  // }
+
+  const filteredEvents = events.filter((item: any) =>
+    type === "event"
+      ? new Date(item.date) > new Date()
+      : new Date(item.date) < new Date()
+  );
+  const defaultHref = type === "event" ? "/event/" : "/blog/";
 
   return filteredEvents.map((item: any) => {
     return {
@@ -37,6 +45,36 @@ export const mapEvents = (events: any, type: string) => {
       image: item.image?.asset?.url || "",
       href: `${defaultHref}${item._id}` || "",
       shortDescription: item.short_description || "",
+    };
+  });
+};
+
+export const mapEventsToCheckmate = (events: any, type: "blog" | "event") => {
+  if (!events?.length) return [];
+
+  const filteredEvents = events.filter((item: any) =>
+    type === "event"
+      ? new Date(item.date) > new Date()
+      : new Date(item.date) < new Date()
+  );
+  const defaultHref = type === "event" ? "/event/" : "/blog/";
+
+  return filteredEvents.map((item: any): EventCheckmateInterface => {
+    return {
+      date: item.date || "",
+      title: item.title || "",
+      link: item?._id ? `${defaultHref}${item._id}` : "",
+      description: item.short_description || "",
+      author: item.author || "Ивайло Маринов",
+      mainImage: {
+        src: item.image?.asset?.url || "",
+        alt: item.image?.alt || "",
+      },
+      images: item.images || [],
+      button: {
+        text: "Прочети повече",
+        link: `${defaultHref}${item._id}`,
+      },
     };
   });
 };

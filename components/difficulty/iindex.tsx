@@ -1,7 +1,7 @@
 import React from "react";
 import { MountainIcon } from "@/components/icons";
 import { PortableText } from "@portabletext/react";
-import { getDifficultyColor } from "@/services/colors";
+import { getDifficultyColor, getDifficultyColorSVG } from "@/services/colors";
 import Accordeon from "@/components/Accordeon";
 
 interface IProps {
@@ -14,14 +14,15 @@ const Difficulty = ({ difficulty, content }: IProps) => {
   const difficultyArray = array.map((_, index) => {
     return {
       index,
-      color: index < +difficulty ? "#b45309" : "#e5e7eb",
+      // color: index < +difficulty ? "#b45309" : "#e5e7eb",
+      color: index < +difficulty ? getDifficultyColorSVG(index) : "#e5e7eb",
     };
   });
 
   return (
     <div className="my-4 lg:my-5">
       <p
-        className={`font-bold uppercase mb-2 ${getDifficultyColor(+difficulty)}`}
+        className={`font-bold uppercase mb-2 text-${getDifficultyColor(+difficulty)}`}
       >
         Ниво на трудност
       </p>

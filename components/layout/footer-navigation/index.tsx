@@ -5,7 +5,7 @@ import { NavigationInterface } from "@/interfaces/NavigationInterface";
 
 export default function FooterNavigation() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex flex-col md:flex-row justify-center items-center">
       {footerNavigation.map((item: NavigationInterface) => (
         <Link
           key={item.href}

@@ -1,13 +1,12 @@
+import PageHeader from "@/components/layout/page-header";
 import React from "react";
 
 export default function About() {
-  const aboutData = "About page";
+  const aboutData = "За нас";
 
   return (
-    <header className="flex items-center justify-end">
-      <div>
-        <h1>{aboutData}</h1>
-      </div>
-    </header>
+    <section>
+      <PageHeader title={aboutData} />
+    </section>
   );
 }

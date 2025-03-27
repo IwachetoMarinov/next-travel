@@ -3,9 +3,13 @@ import Banner from "@/components/banner";
 import { client } from "@/lib/sanity/sanity";
 import CheckmateGrid from "@/components/checkmate-grid";
 import PageHeader from "@/components/layout/page-header";
-import { banerData, checkmateGridData } from "@/constants/mockup";
+import { banerData } from "@/constants/mockup";
 import Heading from "@/components/layout/heading";
-import { mapEvents, mapNews } from "@/services/transformDataService";
+import {
+  mapEvents,
+  mapEventsToCheckmate,
+  mapNews,
+} from "@/services/transformDataService";
 import ThreeColumnGrid from "@/components/layout/three-column-grid";
 
 export default async function Home() {
@@ -33,13 +37,15 @@ export default async function Home() {
 
   const data = mapEvents(blogs, "blog");
   const newsData = mapNews(news);
+  const checkmateData = mapEventsToCheckmate(blogs, "blog");
+  console.log("checkmateData", checkmateData);
 
   return (
     <main className="">
       <Banner data={banerData} />
       {/* Last events */}
       <PageHeader title={"Последни събития"} />
-      <CheckmateGrid data={checkmateGridData} />
+      <CheckmateGrid data={checkmateData} />
 
       {/* Last Blogs */}
       <Heading title={"Последни статии"} styleCLass="uppercase" />
