@@ -5,7 +5,7 @@ import { NavigationInterface } from "@/interfaces/NavigationInterface";
 
 export default function Navigation() {
   return (
-    <div className="flex-1 text-black ">
+    <div className="flex flex-col md:flex-row flex-1 text-black gap-4">
       {navigation.map((item: NavigationInterface) => (
         <Link
           key={item.href}

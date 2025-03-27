@@ -21,7 +21,7 @@ export interface CheckMateGridInterface{
     link: string;
     date: string;
     author: string;
-    description: string;
+    description: any;
     mainImage: ImageInterface;
     images: ImageInterface[];
     button?: ButtonInterface;

@@ -21,13 +21,13 @@ const Banner = ({ data }: IProps) => {
       </div>
 
       {/* Overlay Image */}
-      <div className="relative z-10 -m-14 top-5 md:-top-4 lg:-top-6">
+      <div className="relative z-10 -m-14 top-5 md:top-0">
         <Image
           src={data.imageOverlay.src}
           alt={data?.imageOverlay?.alt}
-          layout="responsive"
-          width={1920}
+          width={2000}
           height={114}
+          layout="intrinsic"
         />
       </div>
 

@@ -1,9 +1,13 @@
 import React from "react";
+import Banner from "@/components/banner";
 import { client } from "@/lib/sanity/sanity";
 import BlogGallery from "@/components/pages/blog/BlogGallery";
 import PageHeader from "@/components/layout/page-header";
 import { PortableText } from "@portabletext/react";
-import Difficulty from "@/components/difficulty/iindex";
+import { banerData } from "@/constants/mockup";
+import IconText from "@/components/IconText";
+import { CalendarIcon } from "@/components/icons";
+import dayjs from "dayjs";
 
 export default async function BlogDetails(
   props: Readonly<{ params: Promise<{ slug: string }> }>
@@ -30,17 +34,49 @@ export default async function BlogDetails(
     }
   }`);
 
-  //   console.log("blog", blog[0]);
+  const date = blog?.[0]?.date
+    ? dayjs(blog?.[0]?.date).format("MMMM D, YYYY")
+    : "";
 
-  //   console.dir(blog, { depth: null });
+  const dynamicBannerData = {
+    image: {
+      src: blog?.[0]?.image?.asset?.url,
+      alt: blog?.[0]?.image?.alt || "Blog main image",
+    },
+    imageOverlay: banerData.imageOverlay,
+    heading: blog?.[0]?.title,
+    description: blog?.[0]?.short_description,
+  };
+
+  console.log("Dynamic data", dynamicBannerData);
+
+  //   image: {
+  //     src: string;
+  //     alt: string;
+  // };
+  // imageOverlay: {
+  //     src: string;
+  //     alt: string;
+  // };
+  // heading: string;
+  // description: string;
 
   return (
-    <main className=" mb-6 md:mb-10">
-      <BlogGallery data={blog?.[0]} />;
-      <section className="page-container">
+    <main className="">
+      <Banner data={dynamicBannerData} />
+      <section className="page-container my-6 lg:my-14">
+        <BlogGallery data={blog?.[0]} />
+        <div className="mt-4 лg:mt-6">
+          <IconText
+            text={date}
+            icon={<CalendarIcon width={16} height={16} fill="#878787" />}
+          />
+        </div>
+
         <PageHeader title={blog?.[0]?.title} />
-        <PortableText value={blog?.[0]?.blog_content || null} />
-        <Difficulty difficulty={blog?.[0]?.difficulty} />
+        <div className="text-[#878787] text-lg: lg:text-xl">
+          <PortableText value={blog?.[0]?.blog_content || null} />
+        </div>
       </section>
     </main>
   );

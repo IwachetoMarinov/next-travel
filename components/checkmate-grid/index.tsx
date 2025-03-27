@@ -7,8 +7,6 @@ interface IProps {
 }
 
 const CheckmateGrid = ({ data }: IProps) => {
-  console.log("CheckmateGrid", data);
-
   return (
     <section className="page-container my-6 lg:my-12">
       {data.map((item: CheckMateGridInterface, index: number) => (

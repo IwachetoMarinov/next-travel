@@ -1,3 +1,5 @@
+import { ImageInterface } from "@/interfaces";
+
 export interface EventPriceInterface {
   price: string;
   _type: string;
@@ -32,4 +34,18 @@ export interface EquipmentInterface {
   name: string;
   icon?: string;
   _key: string;
+}
+
+export interface EventCheckmateInterface {
+  date?: string;
+  title: string;
+  link: string;
+  description: string;
+  author: string;
+  mainImage: ImageInterface;
+  images: ImageInterface[] | string[];
+  button: {
+    text: string;
+    link: string;
+  };
 }

@@ -1,0 +1,796 @@
+Mar 12, 05:11:15 PM: d06f09eb INFO   createClientAndBooking->email leahbogh@hotmail.com
+Mar 12, 05:11:15 PM: d06f09eb INFO   createClientAndBooking->response {
+Mar 12, 05:11:15 PM: d06f09eb INFO     bookings: [
+Mar 12, 05:11:15 PM: d06f09eb INFO       {
+Mar 12, 05:11:15 PM: d06f09eb INFO         id: 2684,
+Mar 12, 05:11:15 PM: d06f09eb INFO         is_confirmed: true,
+Mar 12, 05:11:15 PM: d06f09eb INFO         code: '16jc22jkfx',
+Mar 12, 05:11:15 PM: d06f09eb INFO         client_timezone: null,
+Mar 12, 05:11:15 PM: d06f09eb INFO         start_datetime: '2025-03-14 12:10:00',
+Mar 12, 05:11:15 PM: d06f09eb INFO         end_datetime: '2025-03-14 12:30:00',
+Mar 12, 05:11:15 PM: d06f09eb INFO         record_date: '2025-03-12 15:11:18',
+Mar 12, 05:11:15 PM: d06f09eb INFO         location_id: null,
+Mar 12, 05:11:15 PM: d06f09eb INFO         category_id: 3,
+Mar 12, 05:11:15 PM: d06f09eb INFO         service_id: 3,
+Mar 12, 05:11:15 PM: d06f09eb INFO         provider_id: 22,
+Mar 12, 05:11:15 PM: d06f09eb INFO         client_id: 4240,
+Mar 12, 05:11:15 PM: d06f09eb INFO         duration: 20,
+Mar 12, 05:11:15 PM: d06f09eb INFO         client_time_offset: 0,
+Mar 12, 05:11:15 PM: d06f09eb INFO         service: null,
+Mar 12, 05:11:15 PM: d06f09eb INFO         provider: null,
+Mar 12, 05:11:15 PM: d06f09eb INFO         location: [],
+Mar 12, 05:11:15 PM: d06f09eb INFO         category: null
+Mar 12, 05:11:15 PM: d06f09eb INFO       }
+Mar 12, 05:11:15 PM: d06f09eb INFO     ],
+Mar 12, 05:11:15 PM: d06f09eb INFO     batch: null,
+Mar 12, 05:11:15 PM: d06f09eb INFO     invoice: null,
+Mar 12, 05:11:15 PM: d06f09eb INFO     id: null
+Mar 12, 05:11:15 PM: d06f09eb INFO   }
+Mar 12, 05:11:18 PM: d06f09eb Duration: 2429.47 ms	Memory Usage: 135 MB	Init Duration: 542.41 ms
+Mar 12, 05:29:59 PM: 3f7ec471 INFO   createClientAndBooking->email Wendergava@hotmail.com
+Mar 12, 05:29:59 PM: 3f7ec471 INFO   createClientAndBooking->response {
+Mar 12, 05:29:59 PM: 3f7ec471 INFO     bookings: [
+Mar 12, 05:29:59 PM: 3f7ec471 INFO       {
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         id: 2685,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         is_confirmed: true,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         code: '16jc22k6n2',
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         client_timezone: null,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         start_datetime: '2025-03-12 19:00:00',
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         end_datetime: '2025-03-12 19:20:00',
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         record_date: '2025-03-12 15:30:02',
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         location_id: null,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         category_id: 4,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         service_id: 61,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         provider_id: 12,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         client_id: 4241,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         duration: 20,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         client_time_offset: 0,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         service: null,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         provider: null,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         location: [],
+Mar 12, 05:29:59 PM: 3f7ec471 INFO         category: null
+Mar 12, 05:29:59 PM: 3f7ec471 INFO       }
+Mar 12, 05:29:59 PM: 3f7ec471 INFO     ],
+Mar 12, 05:29:59 PM: 3f7ec471 INFO     batch: null,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO     invoice: null,
+Mar 12, 05:29:59 PM: 3f7ec471 INFO     id: null
+Mar 12, 05:29:59 PM: 3f7ec471 INFO   }
+Mar 12, 05:30:02 PM: 3f7ec471 Duration: 2460.70 ms	Memory Usage: 135 MB	Init Duration: 616.90 ms
+Mar 12, 05:30:28 PM: 1cabe726 INFO   createClientAndBooking->email kyramurphy89@gmail.com
+Mar 12, 05:30:28 PM: 1cabe726 INFO   createClientAndBooking->response {
+Mar 12, 05:30:28 PM: 1cabe726 INFO     bookings: [
+Mar 12, 05:30:28 PM: 1cabe726 INFO       {
+Mar 12, 05:30:28 PM: 1cabe726 INFO         id: 2686,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         is_confirmed: true,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         code: '16jc22ly02',
+Mar 12, 05:30:28 PM: 1cabe726 INFO         client_timezone: null,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         start_datetime: '2025-03-13 11:30:00',
+Mar 12, 05:30:28 PM: 1cabe726 INFO         end_datetime: '2025-03-13 11:50:00',
+Mar 12, 05:30:28 PM: 1cabe726 INFO         record_date: '2025-03-12 15:30:29',
+Mar 12, 05:30:28 PM: 1cabe726 INFO         location_id: null,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         category_id: 4,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         service_id: 22,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         provider_id: 31,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         client_id: 3159,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         duration: 20,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         client_time_offset: 0,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         service: null,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         provider: null,
+Mar 12, 05:30:28 PM: 1cabe726 INFO         location: [],
+Mar 12, 05:30:28 PM: 1cabe726 INFO         category: null
+Mar 12, 05:30:28 PM: 1cabe726 INFO       }
+Mar 12, 05:30:28 PM: 1cabe726 INFO     ],
+Mar 12, 05:30:28 PM: 1cabe726 INFO     batch: null,
+Mar 12, 05:30:28 PM: 1cabe726 INFO     invoice: null,
+Mar 12, 05:30:28 PM: 1cabe726 INFO     id: null
+Mar 12, 05:30:28 PM: 1cabe726 INFO   }
+Mar 12, 05:30:30 PM: 1cabe726 Duration: 1772.23 ms	Memory Usage: 139 MB
+Mar 12, 05:34:49 PM: 705fd6d2 INFO   createClientAndBooking->email bserroukh@hotmail.com
+Mar 12, 05:34:49 PM: 705fd6d2 INFO   createClientAndBooking->response {
+Mar 12, 05:34:49 PM: 705fd6d2 INFO     bookings: [
+Mar 12, 05:34:49 PM: 705fd6d2 INFO       {
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         id: 2687,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         is_confirmed: true,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         code: '16jc22miy8',
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         client_timezone: null,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         start_datetime: '2025-03-15 17:40:00',
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         end_datetime: '2025-03-15 18:00:00',
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         record_date: '2025-03-12 15:34:51',
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         location_id: null,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         category_id: 3,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         service_id: 10,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         provider_id: 24,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         client_id: 2479,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         duration: 20,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         client_time_offset: 0,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         service: null,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         provider: null,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         location: [],
+Mar 12, 05:34:49 PM: 705fd6d2 INFO         category: null
+Mar 12, 05:34:49 PM: 705fd6d2 INFO       }
+Mar 12, 05:34:49 PM: 705fd6d2 INFO     ],
+Mar 12, 05:34:49 PM: 705fd6d2 INFO     batch: null,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO     invoice: null,
+Mar 12, 05:34:49 PM: 705fd6d2 INFO     id: null
+Mar 12, 05:34:49 PM: 705fd6d2 INFO   }
+Mar 12, 05:34:51 PM: 705fd6d2 Duration: 1964.39 ms	Memory Usage: 133 MB	Init Duration: 602.72 ms
+Mar 12, 08:46:24 PM: 3f5e8909 INFO   createClientAndBooking->email lcharlotte28@aol.com
+Mar 12, 08:46:24 PM: 3f5e8909 INFO   createClientAndBooking->response {
+Mar 12, 08:46:24 PM: 3f5e8909 INFO     bookings: [
+Mar 12, 08:46:24 PM: 3f5e8909 INFO       {
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         id: 2690,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         is_confirmed: true,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         code: '16jc22po0u',
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         client_timezone: null,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         start_datetime: '2025-03-17 12:30:00',
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         end_datetime: '2025-03-17 12:50:00',
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         record_date: '2025-03-12 18:46:27',
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         location_id: null,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         category_id: 2,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         service_id: 68,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         provider_id: 9,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         client_id: 4245,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         duration: 20,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         client_time_offset: 0,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         service: null,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         provider: null,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         location: [],
+Mar 12, 08:46:24 PM: 3f5e8909 INFO         category: null
+Mar 12, 08:46:24 PM: 3f5e8909 INFO       }
+Mar 12, 08:46:24 PM: 3f5e8909 INFO     ],
+Mar 12, 08:46:24 PM: 3f5e8909 INFO     batch: null,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO     invoice: null,
+Mar 12, 08:46:24 PM: 3f5e8909 INFO     id: null
+Mar 12, 08:46:24 PM: 3f5e8909 INFO   }
+Mar 12, 08:46:27 PM: 3f5e8909 Duration: 2630.05 ms	Memory Usage: 134 MB	Init Duration: 553.20 ms
+Mar 12, 09:04:02 PM: d87f2c7d INFO   createClientAndBooking->email daisysankey98@gmail.com
+Mar 12, 09:04:02 PM: d87f2c7d INFO   createClientAndBooking->response {
+Mar 12, 09:04:02 PM: d87f2c7d INFO     bookings: [
+Mar 12, 09:04:02 PM: d87f2c7d INFO       {
+Mar 12, 09:04:02 PM: d87f2c7d INFO         id: 2691,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         is_confirmed: true,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         code: '16jc22qqsy',
+Mar 12, 09:04:02 PM: d87f2c7d INFO         client_timezone: null,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         start_datetime: '2025-03-14 10:20:00',
+Mar 12, 09:04:02 PM: d87f2c7d INFO         end_datetime: '2025-03-14 10:40:00',
+Mar 12, 09:04:02 PM: d87f2c7d INFO         record_date: '2025-03-12 19:04:05',
+Mar 12, 09:04:02 PM: d87f2c7d INFO         location_id: null,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         category_id: 2,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         service_id: 65,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         provider_id: 41,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         client_id: 4246,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         duration: 20,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         client_time_offset: 0,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         service: null,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         provider: null,
+Mar 12, 09:04:02 PM: d87f2c7d INFO         location: [],
+Mar 12, 09:04:02 PM: d87f2c7d INFO         category: null
+Mar 12, 09:04:02 PM: d87f2c7d INFO       }
+Mar 12, 09:04:02 PM: d87f2c7d INFO     ],
+Mar 12, 09:04:02 PM: d87f2c7d INFO     batch: null,
+Mar 12, 09:04:02 PM: d87f2c7d INFO     invoice: null,
+Mar 12, 09:04:02 PM: d87f2c7d INFO     id: null
+Mar 12, 09:04:02 PM: d87f2c7d INFO   }
+Mar 12, 09:04:05 PM: d87f2c7d Duration: 2378.74 ms	Memory Usage: 134 MB	Init Duration: 484.06 ms
+Mar 12, 09:14:37 PM: b7a7281f INFO   createClientAndBooking->email jeniannejohnson@gmail.com
+Mar 12, 09:14:37 PM: b7a7281f INFO   createClientAndBooking->response {
+Mar 12, 09:14:37 PM: b7a7281f INFO     bookings: [
+Mar 12, 09:14:37 PM: b7a7281f INFO       {
+Mar 12, 09:14:37 PM: b7a7281f INFO         id: 2692,
+Mar 12, 09:14:37 PM: b7a7281f INFO         is_confirmed: true,
+Mar 12, 09:14:37 PM: b7a7281f INFO         code: '16jc22r4ug',
+Mar 12, 09:14:37 PM: b7a7281f INFO         client_timezone: null,
+Mar 12, 09:14:37 PM: b7a7281f INFO         start_datetime: '2025-03-14 12:00:00',
+Mar 12, 09:14:37 PM: b7a7281f INFO         end_datetime: '2025-03-14 12:20:00',
+Mar 12, 09:14:37 PM: b7a7281f INFO         record_date: '2025-03-12 19:14:40',
+Mar 12, 09:14:37 PM: b7a7281f INFO         location_id: null,
+Mar 12, 09:14:37 PM: b7a7281f INFO         category_id: 2,
+Mar 12, 09:14:37 PM: b7a7281f INFO         service_id: 62,
+Mar 12, 09:14:37 PM: b7a7281f INFO         provider_id: 14,
+Mar 12, 09:14:37 PM: b7a7281f INFO         client_id: 4247,
+Mar 12, 09:14:37 PM: b7a7281f INFO         duration: 20,
+Mar 12, 09:14:37 PM: b7a7281f INFO         client_time_offset: 0,
+Mar 12, 09:14:37 PM: b7a7281f INFO         service: null,
+Mar 12, 09:14:37 PM: b7a7281f INFO         provider: null,
+Mar 12, 09:14:37 PM: b7a7281f INFO         location: [],
+Mar 12, 09:14:37 PM: b7a7281f INFO         category: null
+Mar 12, 09:14:37 PM: b7a7281f INFO       }
+Mar 12, 09:14:37 PM: b7a7281f INFO     ],
+Mar 12, 09:14:37 PM: b7a7281f INFO     batch: null,
+Mar 12, 09:14:37 PM: b7a7281f INFO     invoice: null,
+Mar 12, 09:14:37 PM: b7a7281f INFO     id: null
+Mar 12, 09:14:37 PM: b7a7281f INFO   }
+Mar 12, 09:14:39 PM: b7a7281f Duration: 2346.88 ms	Memory Usage: 135 MB	Init Duration: 580.39 ms
+Mar 12, 09:17:15 PM: 8365ee42 INFO   createClientAndBooking->email racheldecintra1999@gmail.com
+Mar 12, 09:17:15 PM: 8365ee42 INFO   createClientAndBooking->response {
+Mar 12, 09:17:15 PM: 8365ee42 INFO     bookings: [
+Mar 12, 09:17:15 PM: 8365ee42 INFO       {
+Mar 12, 09:17:15 PM: 8365ee42 INFO         id: 2693,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         is_confirmed: true,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         code: '16jc22siv5',
+Mar 12, 09:17:15 PM: 8365ee42 INFO         client_timezone: null,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         start_datetime: '2025-03-14 14:30:00',
+Mar 12, 09:17:15 PM: 8365ee42 INFO         end_datetime: '2025-03-14 15:00:00',
+Mar 12, 09:17:15 PM: 8365ee42 INFO         record_date: '2025-03-12 19:17:19',
+Mar 12, 09:17:15 PM: 8365ee42 INFO         location_id: null,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         category_id: 1,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         service_id: 51,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         provider_id: 9,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         client_id: 4248,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         duration: 30,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         client_time_offset: 0,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         service: null,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         provider: null,
+Mar 12, 09:17:15 PM: 8365ee42 INFO         location: [],
+Mar 12, 09:17:15 PM: 8365ee42 INFO         category: null
+Mar 12, 09:17:15 PM: 8365ee42 INFO       }
+Mar 12, 09:17:15 PM: 8365ee42 INFO     ],
+Mar 12, 09:17:15 PM: 8365ee42 INFO     batch: null,
+Mar 12, 09:17:15 PM: 8365ee42 INFO     invoice: null,
+Mar 12, 09:17:15 PM: 8365ee42 INFO     id: null
+Mar 12, 09:17:15 PM: 8365ee42 INFO   }
+Mar 12, 09:17:19 PM: 8365ee42 Duration: 4659.71 ms	Memory Usage: 139 MB
+Mar 12, 09:21:35 PM: 3d47f426 INFO   createClientAndBooking->email tamhanedeepti@gmail.com
+Mar 12, 09:21:35 PM: 3d47f426 INFO   createClientAndBooking->response {
+Mar 12, 09:21:35 PM: 3d47f426 INFO     bookings: [
+Mar 12, 09:21:35 PM: 3d47f426 INFO       {
+Mar 12, 09:21:35 PM: 3d47f426 INFO         id: 2694,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         is_confirmed: true,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         code: '16jc22tkni',
+Mar 12, 09:21:35 PM: 3d47f426 INFO         client_timezone: null,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         start_datetime: '2025-03-17 18:30:00',
+Mar 12, 09:21:35 PM: 3d47f426 INFO         end_datetime: '2025-03-17 19:00:00',
+Mar 12, 09:21:35 PM: 3d47f426 INFO         record_date: '2025-03-12 19:21:38',
+Mar 12, 09:21:35 PM: 3d47f426 INFO         location_id: null,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         category_id: 6,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         service_id: 49,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         provider_id: 12,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         client_id: 4249,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         duration: 30,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         client_time_offset: 0,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         service: null,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         provider: null,
+Mar 12, 09:21:35 PM: 3d47f426 INFO         location: [],
+Mar 12, 09:21:35 PM: 3d47f426 INFO         category: null
+Mar 12, 09:21:35 PM: 3d47f426 INFO       }
+Mar 12, 09:21:35 PM: 3d47f426 INFO     ],
+Mar 12, 09:21:35 PM: 3d47f426 INFO     batch: null,
+Mar 12, 09:21:35 PM: 3d47f426 INFO     invoice: null,
+Mar 12, 09:21:35 PM: 3d47f426 INFO     id: null
+Mar 12, 09:21:35 PM: 3d47f426 INFO   }
+Mar 12, 09:21:38 PM: 3d47f426 Duration: 3369.69 ms	Memory Usage: 139 MB
+Mar 12, 10:05:17 PM: ff6fee86 INFO   createClientAndBooking->email caraghdyer@hotmail.com
+Mar 12, 10:05:17 PM: ff6fee86 INFO   createClientAndBooking->response {
+Mar 12, 10:05:17 PM: ff6fee86 INFO     bookings: [
+Mar 12, 10:05:17 PM: ff6fee86 INFO       {
+Mar 12, 10:05:17 PM: ff6fee86 INFO         id: 2695,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         is_confirmed: true,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         code: '16jc22uktp',
+Mar 12, 10:05:17 PM: ff6fee86 INFO         client_timezone: null,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         start_datetime: '2025-03-29 10:00:00',
+Mar 12, 10:05:17 PM: ff6fee86 INFO         end_datetime: '2025-03-29 10:20:00',
+Mar 12, 10:05:17 PM: ff6fee86 INFO         record_date: '2025-03-12 20:05:20',
+Mar 12, 10:05:17 PM: ff6fee86 INFO         location_id: null,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         category_id: 3,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         service_id: 3,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         provider_id: 24,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         client_id: 4025,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         duration: 20,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         client_time_offset: 0,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         service: null,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         provider: null,
+Mar 12, 10:05:17 PM: ff6fee86 INFO         location: [],
+Mar 12, 10:05:17 PM: ff6fee86 INFO         category: null
+Mar 12, 10:05:17 PM: ff6fee86 INFO       }
+Mar 12, 10:05:17 PM: ff6fee86 INFO     ],
+Mar 12, 10:05:17 PM: ff6fee86 INFO     batch: null,
+Mar 12, 10:05:17 PM: ff6fee86 INFO     invoice: null,
+Mar 12, 10:05:17 PM: ff6fee86 INFO     id: null
+Mar 12, 10:05:17 PM: ff6fee86 INFO   }
+Mar 12, 10:05:19 PM: ff6fee86 Duration: 1905.57 ms	Memory Usage: 135 MB	Init Duration: 491.51 ms
+Mar 12, 11:51:31 PM: 00193a95 INFO   createClientAndBooking->email michellegrech1990@hotmail.com
+Mar 12, 11:51:31 PM: 00193a95 INFO   createClientAndBooking->response {
+Mar 12, 11:51:31 PM: 00193a95 INFO     bookings: [
+Mar 12, 11:51:31 PM: 00193a95 INFO       {
+Mar 12, 11:51:31 PM: 00193a95 INFO         id: 2696,
+Mar 12, 11:51:31 PM: 00193a95 INFO         is_confirmed: true,
+Mar 12, 11:51:31 PM: 00193a95 INFO         code: '16jc22vyb0',
+Mar 12, 11:51:31 PM: 00193a95 INFO         client_timezone: null,
+Mar 12, 11:51:31 PM: 00193a95 INFO         start_datetime: '2025-03-13 13:30:00',
+Mar 12, 11:51:31 PM: 00193a95 INFO         end_datetime: '2025-03-13 13:50:00',
+Mar 12, 11:51:31 PM: 00193a95 INFO         record_date: '2025-03-12 21:51:34',
+Mar 12, 11:51:31 PM: 00193a95 INFO         location_id: null,
+Mar 12, 11:51:31 PM: 00193a95 INFO         category_id: 2,
+Mar 12, 11:51:31 PM: 00193a95 INFO         service_id: 25,
+Mar 12, 11:51:31 PM: 00193a95 INFO         provider_id: 18,
+Mar 12, 11:51:31 PM: 00193a95 INFO         client_id: 4250,
+Mar 12, 11:51:31 PM: 00193a95 INFO         duration: 20,
+Mar 12, 11:51:31 PM: 00193a95 INFO         client_time_offset: 0,
+Mar 12, 11:51:31 PM: 00193a95 INFO         service: null,
+Mar 12, 11:51:31 PM: 00193a95 INFO         provider: null,
+Mar 12, 11:51:31 PM: 00193a95 INFO         location: [],
+Mar 12, 11:51:31 PM: 00193a95 INFO         category: null
+Mar 12, 11:51:31 PM: 00193a95 INFO       }
+Mar 12, 11:51:31 PM: 00193a95 INFO     ],
+Mar 12, 11:51:31 PM: 00193a95 INFO     batch: null,
+Mar 12, 11:51:31 PM: 00193a95 INFO     invoice: null,
+Mar 12, 11:51:31 PM: 00193a95 INFO     id: null
+Mar 12, 11:51:31 PM: 00193a95 INFO   }
+Mar 12, 11:51:34 PM: 00193a95 Duration: 2350.48 ms	Memory Usage: 135 MB	Init Duration: 613.85 ms
+Mar 13, 12:10:20 AM: d0ee3432 INFO   createClientAndBooking->email jk@slipform.cc
+Mar 13, 12:10:20 AM: d0ee3432 INFO   createClientAndBooking->response {
+Mar 13, 12:10:20 AM: d0ee3432 INFO     bookings: [
+Mar 13, 12:10:20 AM: d0ee3432 INFO       {
+Mar 13, 12:10:20 AM: d0ee3432 INFO         id: 2697,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         is_confirmed: true,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         code: '16jc22wgqf',
+Mar 13, 12:10:20 AM: d0ee3432 INFO         client_timezone: null,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         start_datetime: '2025-03-13 17:10:00',
+Mar 13, 12:10:20 AM: d0ee3432 INFO         end_datetime: '2025-03-13 17:30:00',
+Mar 13, 12:10:20 AM: d0ee3432 INFO         record_date: '2025-03-12 22:10:23',
+Mar 13, 12:10:20 AM: d0ee3432 INFO         location_id: null,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         category_id: 4,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         service_id: 61,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         provider_id: 9,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         client_id: 4251,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         duration: 20,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         client_time_offset: 0,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         service: null,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         provider: null,
+Mar 13, 12:10:20 AM: d0ee3432 INFO         location: [],
+Mar 13, 12:10:20 AM: d0ee3432 INFO         category: null
+Mar 13, 12:10:20 AM: d0ee3432 INFO       }
+Mar 13, 12:10:20 AM: d0ee3432 INFO     ],
+Mar 13, 12:10:20 AM: d0ee3432 INFO     batch: null,
+Mar 13, 12:10:20 AM: d0ee3432 INFO     invoice: null,
+Mar 13, 12:10:20 AM: d0ee3432 INFO     id: null
+Mar 13, 12:10:20 AM: d0ee3432 INFO   }
+Mar 13, 12:10:23 AM: d0ee3432 Duration: 2562.83 ms	Memory Usage: 135 MB	Init Duration: 593.93 ms
+Mar 13, 01:32:43 AM: 4f6e4429 INFO   createClientAndBooking->email sara.balla99@outlook.com
+Mar 13, 01:32:43 AM: 4f6e4429 INFO   createClientAndBooking->response {
+Mar 13, 01:32:43 AM: 4f6e4429 INFO     bookings: [
+Mar 13, 01:32:43 AM: 4f6e4429 INFO       {
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         id: 2698,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         is_confirmed: true,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         code: '16jc22xtey',
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         client_timezone: null,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         start_datetime: '2025-03-13 12:30:00',
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         end_datetime: '2025-03-13 12:50:00',
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         record_date: '2025-03-12 23:32:46',
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         location_id: null,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         category_id: 2,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         service_id: 65,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         provider_id: 31,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         client_id: 4252,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         duration: 20,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         client_time_offset: 0,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         service: null,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         provider: null,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         location: [],
+Mar 13, 01:32:43 AM: 4f6e4429 INFO         category: null
+Mar 13, 01:32:43 AM: 4f6e4429 INFO       }
+Mar 13, 01:32:43 AM: 4f6e4429 INFO     ],
+Mar 13, 01:32:43 AM: 4f6e4429 INFO     batch: null,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO     invoice: null,
+Mar 13, 01:32:43 AM: 4f6e4429 INFO     id: null
+Mar 13, 01:32:43 AM: 4f6e4429 INFO   }
+Mar 13, 01:32:46 AM: 4f6e4429 Duration: 2581.69 ms	Memory Usage: 134 MB	Init Duration: 469.81 ms
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO   createClientAndBooking->email lubegakhalilah@gmail.com
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO   createClientAndBooking->response {
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO     bookings: [
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO       {
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         id: 2699,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         is_confirmed: true,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         code: '16jc22yj0f',
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         client_timezone: null,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         start_datetime: '2025-03-13 15:40:00',
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         end_datetime: '2025-03-13 16:00:00',
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         record_date: '2025-03-12 23:42:11',
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         location_id: null,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         category_id: 2,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         service_id: 65,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         provider_id: 31,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         client_id: 4253,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         duration: 20,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         client_time_offset: 0,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         service: null,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         provider: null,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         location: [],
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO         category: null
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO       }
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO     ],
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO     batch: null,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO     invoice: null,
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO     id: null
+Mar 13, 01:42:08 AM: 2cbf18c0 INFO   }
+Mar 13, 01:42:10 AM: 2cbf18c0 Duration: 2331.44 ms	Memory Usage: 135 MB	Init Duration: 520.88 ms
+Mar 13, 10:57:00 AM: 79bacfc0 INFO   createClientAndBooking->email fwcavendish@gmail.com
+Mar 13, 10:57:00 AM: 79bacfc0 INFO   createClientAndBooking->response {
+Mar 13, 10:57:00 AM: 79bacfc0 INFO     bookings: [
+Mar 13, 10:57:00 AM: 79bacfc0 INFO       {
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         id: 2700,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         is_confirmed: true,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         code: '16jc22z544',
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         client_timezone: null,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         start_datetime: '2025-03-14 12:00:00',
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         end_datetime: '2025-03-14 12:20:00',
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         record_date: '2025-03-13 08:57:03',
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         location_id: null,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         category_id: 2,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         service_id: 62,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         provider_id: 41,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         client_id: 4254,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         duration: 20,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         client_time_offset: 0,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         service: null,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         provider: null,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         location: [],
+Mar 13, 10:57:00 AM: 79bacfc0 INFO         category: null
+Mar 13, 10:57:00 AM: 79bacfc0 INFO       }
+Mar 13, 10:57:00 AM: 79bacfc0 INFO     ],
+Mar 13, 10:57:00 AM: 79bacfc0 INFO     batch: null,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO     invoice: null,
+Mar 13, 10:57:00 AM: 79bacfc0 INFO     id: null
+Mar 13, 10:57:00 AM: 79bacfc0 INFO   }
+Mar 13, 10:57:02 AM: 79bacfc0 Duration: 2429.44 ms	Memory Usage: 135 MB	Init Duration: 601.37 ms
+Mar 13, 01:05:11 PM: 114193fb INFO   createClientAndBooking->email psaxby@me.com
+Mar 13, 01:05:11 PM: 114193fb INFO   createClientAndBooking->response {
+Mar 13, 01:05:11 PM: 114193fb INFO     bookings: [
+Mar 13, 01:05:11 PM: 114193fb INFO       {
+Mar 13, 01:05:11 PM: 114193fb INFO         id: 2703,
+Mar 13, 01:05:11 PM: 114193fb INFO         is_confirmed: true,
+Mar 13, 01:05:11 PM: 114193fb INFO         code: '16jc232vme',
+Mar 13, 01:05:11 PM: 114193fb INFO         client_timezone: null,
+Mar 13, 01:05:11 PM: 114193fb INFO         start_datetime: '2025-03-15 14:00:00',
+Mar 13, 01:05:11 PM: 114193fb INFO         end_datetime: '2025-03-15 14:30:00',
+Mar 13, 01:05:11 PM: 114193fb INFO         record_date: '2025-03-13 11:05:15',
+Mar 13, 01:05:11 PM: 114193fb INFO         location_id: null,
+Mar 13, 01:05:11 PM: 114193fb INFO         category_id: 1,
+Mar 13, 01:05:11 PM: 114193fb INFO         service_id: 51,
+Mar 13, 01:05:11 PM: 114193fb INFO         provider_id: 44,
+Mar 13, 01:05:11 PM: 114193fb INFO         client_id: 4257,
+Mar 13, 01:05:11 PM: 114193fb INFO         duration: 30,
+Mar 13, 01:05:11 PM: 114193fb INFO         client_time_offset: 0,
+Mar 13, 01:05:11 PM: 114193fb INFO         service: null,
+Mar 13, 01:05:11 PM: 114193fb INFO         provider: null,
+Mar 13, 01:05:11 PM: 114193fb INFO         location: [],
+Mar 13, 01:05:11 PM: 114193fb INFO         category: null
+Mar 13, 01:05:11 PM: 114193fb INFO       }
+Mar 13, 01:05:11 PM: 114193fb INFO     ],
+Mar 13, 01:05:11 PM: 114193fb INFO     batch: null,
+Mar 13, 01:05:11 PM: 114193fb INFO     invoice: null,
+Mar 13, 01:05:11 PM: 114193fb INFO     id: null
+Mar 13, 01:05:11 PM: 114193fb INFO   }
+Mar 13, 01:05:14 PM: 114193fb Duration: 2603.96 ms	Memory Usage: 133 MB	Init Duration: 618.97 ms
+Mar 13, 01:15:05 PM: 3530a33e INFO   createClientAndBooking->email joshuadennisondobie@gmail.com
+Mar 13, 01:15:05 PM: 3530a33e INFO   createClientAndBooking->response {
+Mar 13, 01:15:05 PM: 3530a33e INFO     bookings: [
+Mar 13, 01:15:05 PM: 3530a33e INFO       {
+Mar 13, 01:15:05 PM: 3530a33e INFO         id: 2705,
+Mar 13, 01:15:05 PM: 3530a33e INFO         is_confirmed: true,
+Mar 13, 01:15:05 PM: 3530a33e INFO         code: '16jc234ldt',
+Mar 13, 01:15:05 PM: 3530a33e INFO         client_timezone: null,
+Mar 13, 01:15:05 PM: 3530a33e INFO         start_datetime: '2025-03-15 10:40:00',
+Mar 13, 01:15:05 PM: 3530a33e INFO         end_datetime: '2025-03-15 11:10:00',
+Mar 13, 01:15:05 PM: 3530a33e INFO         record_date: '2025-03-13 11:15:09',
+Mar 13, 01:15:05 PM: 3530a33e INFO         location_id: null,
+Mar 13, 01:15:05 PM: 3530a33e INFO         category_id: 5,
+Mar 13, 01:15:05 PM: 3530a33e INFO         service_id: 14,
+Mar 13, 01:15:05 PM: 3530a33e INFO         provider_id: 14,
+Mar 13, 01:15:05 PM: 3530a33e INFO         client_id: 4259,
+Mar 13, 01:15:05 PM: 3530a33e INFO         duration: 30,
+Mar 13, 01:15:05 PM: 3530a33e INFO         client_time_offset: 0,
+Mar 13, 01:15:05 PM: 3530a33e INFO         service: null,
+Mar 13, 01:15:05 PM: 3530a33e INFO         provider: null,
+Mar 13, 01:15:05 PM: 3530a33e INFO         location: [],
+Mar 13, 01:15:05 PM: 3530a33e INFO         category: null
+Mar 13, 01:15:05 PM: 3530a33e INFO       }
+Mar 13, 01:15:05 PM: 3530a33e INFO     ],
+Mar 13, 01:15:05 PM: 3530a33e INFO     batch: null,
+Mar 13, 01:15:05 PM: 3530a33e INFO     invoice: null,
+Mar 13, 01:15:05 PM: 3530a33e INFO     id: null
+Mar 13, 01:15:05 PM: 3530a33e INFO   }
+Mar 13, 01:15:08 PM: 3530a33e Duration: 2540.11 ms	Memory Usage: 134 MB	Init Duration: 597.52 ms
+Mar 13, 01:40:25 PM: d353fdf3 iplb-request-id': '12AA2724:A352_8E2C8CB0:01BB_67D2C42B_DA8EAD:1B45',
+Mar 13, 01:40:25 PM: d353fdf3       'strict-transport-security': 'max-age=15768000',
+Mar 13, 01:40:25 PM: d353fdf3       'x-iplb-instance': '59468',
+Mar 13, 01:40:25 PM: d353fdf3       connection: 'close'
+Mar 13, 01:40:25 PM: d353fdf3     },
+Mar 13, 01:40:25 PM: d353fdf3     config: {
+Mar 13, 01:40:25 PM: d353fdf3       transitional: [Object],
+Mar 13, 01:40:25 PM: d353fdf3       adapter: [Array],
+Mar 13, 01:40:25 PM: d353fdf3       transformRequest: [Array],
+Mar 13, 01:40:25 PM: d353fdf3       transformResponse: [Array],
+Mar 13, 01:40:25 PM: d353fdf3       timeout: 0,
+Mar 13, 01:40:25 PM: d353fdf3       xsrfCookieName: 'XSRF-TOKEN',
+Mar 13, 01:40:25 PM: d353fdf3       xsrfHeaderName: 'X-XSRF-TOKEN',
+Mar 13, 01:40:25 PM: d353fdf3       maxContentLength: -1,
+Mar 13, 01:40:25 PM: d353fdf3       maxBodyLength: Infinity,
+Mar 13, 01:40:25 PM: d353fdf3       env: [Object],
+Mar 13, 01:40:25 PM: d353fdf3       validateStatus: [Function: validateStatus],
+Mar 13, 01:40:25 PM: d353fdf3       headers: [Object [AxiosHeaders]],
+Mar 13, 01:40:25 PM: d353fdf3       method: 'post',
+Mar 13, 01:40:25 PM: d353fdf3       url: 'https://user-api-v2.simplybook.me/admin/bookings',
+Mar 13, 01:40:25 PM: d353fdf3       data: '{"count":1,"start_datetime":"2025-03-14 11:50:00","location_id":1,"provider_id":22,"service_id":25,"category_id":2,"additional_fields":[{"field":"810d2953c747088cb5116029735798e6","value":"1998-05-15"},{"field":"928a4df1b89b6b8b14b9d054809faad4","value":"{\\"collabData\\":null,\\"zohoId\\":{\\"google_id\\":\\"EAIaIQobChMI4Jmi1dGGjAMVw4hQBh0Lsjl2EAAYASAAEgJYefD_BwE\\",\\"session_id\\":\\"y9PYiUSxYxAGCxQ0HayKtmBiuonhwBw9\\",\\"email\\":\\"olivialandi@live.com\\",\\"lead_id\\":\\"699987000013488296\\"},\\"isCollaborative\\":\\"\\",\\"payment\\":{\\"selectedPrice\\":260,\\"paymentData\\":{\\"paymentMethod\\":\\"card\\",\\"paymentProvider\\":\\"Card\\"}}}"},{"field":"9755db348b8d9352a1fc579167c804cf","value":"Full Payment"},{"field":"1ed6da302ca828aa277288b0cb99b101","value":"699987000013488296"}],"client_id":4260}',
+Mar 13, 01:40:25 PM: d353fdf3       allowAbsoluteUrls: true
+Mar 13, 01:40:25 PM: d353fdf3     },
+Mar 13, 01:40:25 PM: d353fdf3     request: <ref *1> ClientRequest {
+Mar 13, 01:40:25 PM: d353fdf3       _events: [Object: null prototype],
+Mar 13, 01:40:25 PM: d353fdf3       _eventsCount: 7,
+Mar 13, 01:40:25 PM: d353fdf3       _maxListeners: undefined,
+Mar 13, 01:40:25 PM: d353fdf3       outputData: [],
+Mar 13, 01:40:25 PM: d353fdf3       outputSize: 0,
+Mar 13, 01:40:25 PM: d353fdf3       writable: true,
+Mar 13, 01:40:25 PM: d353fdf3       destroyed: false,
+Mar 13, 01:40:25 PM: d353fdf3       _last: true,
+Mar 13, 01:40:25 PM: d353fdf3       chunkedEncoding: false,
+Mar 13, 01:40:25 PM: d353fdf3       shouldKeepAlive: false,
+Mar 13, 01:40:25 PM: d353fdf3       maxRequestsOnConnectionReached: false,
+Mar 13, 01:40:25 PM: d353fdf3       _defaultKeepAlive: true,
+Mar 13, 01:40:25 PM: d353fdf3       useChunkedEncodingByDefault: true,
+Mar 13, 01:40:25 PM: d353fdf3       sendDate: false,
+Mar 13, 01:40:25 PM: d353fdf3       _removedConnection: false,
+Mar 13, 01:40:25 PM: d353fdf3       _removedContLen: false,
+Mar 13, 01:40:25 PM: d353fdf3       _removedTE: false,
+Mar 13, 01:40:25 PM: d353fdf3       strictContentLength: false,
+Mar 13, 01:40:25 PM: d353fdf3       _contentLength: '783',
+Mar 13, 01:40:25 PM: d353fdf3       _hasBody: true,
+Mar 13, 01:40:25 PM: d353fdf3       _trailer: '',
+Mar 13, 01:40:25 PM: d353fdf3       finished: true,
+Mar 13, 01:40:25 PM: d353fdf3       _headerSent: true,
+Mar 13, 01:40:25 PM: d353fdf3       _closed: false,
+Mar 13, 01:40:25 PM: d353fdf3       socket: [TLSSocket],
+Mar 13, 01:40:25 PM: d353fdf3       _header: 'POST /admin/bookings HTTP/1.1\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'Accept: application/json, text/plain, */*\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'Content-Type: application/json\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'X-Company-Login: hsultrasound\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'X-Token: f012d709b1b6cda512e972521f309b7865e87956c9bceb6d157bb493a8ddd773\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'User-Agent: axios/1.8.2\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'Content-Length: 783\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'Host: user-api-v2.simplybook.me\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         'Connection: close\r\n' +
+Mar 13, 01:40:25 PM: d353fdf3         '\r\n',
+Mar 13, 01:40:25 PM: d353fdf3       _keepAliveTimeout: 0,
+Mar 13, 01:40:25 PM: d353fdf3       _onPendingData: [Function: nop],
+Mar 13, 01:40:25 PM: d353fdf3       agent: [Agent],
+Mar 13, 01:40:25 PM: d353fdf3       socketPath: undefined,
+Mar 13, 01:40:25 PM: d353fdf3       method: 'POST',
+Mar 13, 01:40:25 PM: d353fdf3       maxHeaderSize: undefined,
+Mar 13, 01:40:25 PM: d353fdf3       insecureHTTPParser: undefined,
+Mar 13, 01:40:25 PM: d353fdf3       joinDuplicateHeaders: undefined,
+Mar 13, 01:40:25 PM: d353fdf3       path: '/admin/bookings',
+Mar 13, 01:40:25 PM: d353fdf3       _ended: true,
+Mar 13, 01:40:25 PM: d353fdf3       res: [IncomingMessage],
+Mar 13, 01:40:25 PM: d353fdf3       aborted: false,
+Mar 13, 01:40:25 PM: d353fdf3       timeoutCb: null,
+Mar 13, 01:40:25 PM: d353fdf3       upgradeOrConnect: false,
+Mar 13, 01:40:25 PM: d353fdf3       parser: null,
+Mar 13, 01:40:25 PM: d353fdf3       maxHeadersCount: null,
+Mar 13, 01:40:25 PM: d353fdf3       reusedSocket: false,
+Mar 13, 01:40:25 PM: d353fdf3       host: 'user-api-v2.simplybook.me',
+Mar 13, 01:40:25 PM: d353fdf3       protocol: 'https:',
+Mar 13, 01:40:25 PM: d353fdf3       _redirectable: [Writable],
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(kCapture)]: false,
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(kBytesWritten)]: 0,
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(kNeedDrain)]: false,
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(corked)]: 0,
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(kOutHeaders)]: [Object: null prototype],
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(errored)]: null,
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(kHighWaterMark)]: 16384,
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(kRejectNonStandardBodyWrites)]: false,
+Mar 13, 01:40:25 PM: d353fdf3       [Symbol(kUniqueHeaders)]: null
+Mar 13, 01:40:25 PM: d353fdf3     },
+Mar 13, 01:40:25 PM: d353fdf3     data: {
+Mar 13, 01:40:25 PM: d353fdf3       code: 400,
+Mar 13, 01:40:25 PM: d353fdf3       message: 'No free resources!',
+Mar 13, 01:40:25 PM: d353fdf3       data: [],
+Mar 13, 01:40:25 PM: d353fdf3       message_data: []
+Mar 13, 01:40:25 PM: d353fdf3     }
+Mar 13, 01:40:25 PM: d353fdf3   },
+Mar 13, 01:40:25 PM: d353fdf3   status: 400
+Mar 13, 01:40:25 PM: d353fdf3 }
+Mar 13, 01:40:27 PM: d353fdf3 Duration: 2179.02 ms	Memory Usage: 135 MB	Init Duration: 578.28 ms
+Mar 13, 01:50:25 PM: 66928946 INFO   createClientAndBooking->email annabellouth@hotmail.co.uk
+Mar 13, 01:50:25 PM: 66928946 INFO   createClientAndBooking->response {
+Mar 13, 01:50:25 PM: 66928946 INFO     bookings: [
+Mar 13, 01:50:25 PM: 66928946 INFO       {
+Mar 13, 01:50:25 PM: 66928946 INFO         id: 2706,
+Mar 13, 01:50:25 PM: 66928946 INFO         is_confirmed: true,
+Mar 13, 01:50:25 PM: 66928946 INFO         code: '16jc235k8n',
+Mar 13, 01:50:25 PM: 66928946 INFO         client_timezone: null,
+Mar 13, 01:50:25 PM: 66928946 INFO         start_datetime: '2025-03-17 14:30:00',
+Mar 13, 01:50:25 PM: 66928946 INFO         end_datetime: '2025-03-17 15:00:00',
+Mar 13, 01:50:25 PM: 66928946 INFO         record_date: '2025-03-13 11:50:28',
+Mar 13, 01:50:25 PM: 66928946 INFO         location_id: null,
+Mar 13, 01:50:25 PM: 66928946 INFO         category_id: 1,
+Mar 13, 01:50:25 PM: 66928946 INFO         service_id: 53,
+Mar 13, 01:50:25 PM: 66928946 INFO         provider_id: 23,
+Mar 13, 01:50:25 PM: 66928946 INFO         client_id: 4261,
+Mar 13, 01:50:25 PM: 66928946 INFO         duration: 30,
+Mar 13, 01:50:25 PM: 66928946 INFO         client_time_offset: 0,
+Mar 13, 01:50:25 PM: 66928946 INFO         service: null,
+Mar 13, 01:50:25 PM: 66928946 INFO         provider: null,
+Mar 13, 01:50:25 PM: 66928946 INFO         location: [],
+Mar 13, 01:50:25 PM: 66928946 INFO         category: null
+Mar 13, 01:50:25 PM: 66928946 INFO       }
+Mar 13, 01:50:25 PM: 66928946 INFO     ],
+Mar 13, 01:50:25 PM: 66928946 INFO     batch: null,
+Mar 13, 01:50:25 PM: 66928946 INFO     invoice: null,
+Mar 13, 01:50:25 PM: 66928946 INFO     id: null
+Mar 13, 01:50:25 PM: 66928946 INFO   }
+Mar 13, 01:50:28 PM: 66928946 Duration: 2410.38 ms	Memory Usage: 135 MB	Init Duration: 583.88 ms
+Mar 13, 02:00:25 PM: a1299cc8 INFO   createClientAndBooking->email fay.muddle@withintelligence.com
+Mar 13, 02:00:25 PM: a1299cc8 INFO   createClientAndBooking->response {
+Mar 13, 02:00:25 PM: a1299cc8 INFO     bookings: [
+Mar 13, 02:00:25 PM: a1299cc8 INFO       {
+Mar 13, 02:00:25 PM: a1299cc8 INFO         id: 2707,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         is_confirmed: true,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         code: '16jc236kvy',
+Mar 13, 02:00:25 PM: a1299cc8 INFO         client_timezone: null,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         start_datetime: '2025-03-14 09:00:00',
+Mar 13, 02:00:25 PM: a1299cc8 INFO         end_datetime: '2025-03-14 09:20:00',
+Mar 13, 02:00:25 PM: a1299cc8 INFO         record_date: '2025-03-13 12:00:28',
+Mar 13, 02:00:25 PM: a1299cc8 INFO         location_id: null,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         category_id: 4,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         service_id: 65,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         provider_id: 41,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         client_id: 4262,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         duration: 20,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         client_time_offset: 0,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         service: null,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         provider: null,
+Mar 13, 02:00:25 PM: a1299cc8 INFO         location: [],
+Mar 13, 02:00:25 PM: a1299cc8 INFO         category: null
+Mar 13, 02:00:25 PM: a1299cc8 INFO       }
+Mar 13, 02:00:25 PM: a1299cc8 INFO     ],
+Mar 13, 02:00:25 PM: a1299cc8 INFO     batch: null,
+Mar 13, 02:00:25 PM: a1299cc8 INFO     invoice: null,
+Mar 13, 02:00:25 PM: a1299cc8 INFO     id: null
+Mar 13, 02:00:25 PM: a1299cc8 INFO   }
+Mar 13, 02:00:28 PM: a1299cc8 Duration: 2501.08 ms	Memory Usage: 135 MB	Init Duration: 604.53 ms
+Mar 13, 02:02:14 PM: 62ebb39e INFO   createClientAndBooking->email emilycgosen@hotmail.com
+Mar 13, 02:02:14 PM: 62ebb39e INFO   createClientAndBooking->response {
+Mar 13, 02:02:14 PM: 62ebb39e INFO     bookings: [
+Mar 13, 02:02:14 PM: 62ebb39e INFO       {
+Mar 13, 02:02:14 PM: 62ebb39e INFO         id: 2708,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         is_confirmed: true,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         code: '16jc237ueu',
+Mar 13, 02:02:14 PM: 62ebb39e INFO         client_timezone: null,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         start_datetime: '2025-03-13 15:20:00',
+Mar 13, 02:02:14 PM: 62ebb39e INFO         end_datetime: '2025-03-13 15:40:00',
+Mar 13, 02:02:14 PM: 62ebb39e INFO         record_date: '2025-03-13 12:02:17',
+Mar 13, 02:02:14 PM: 62ebb39e INFO         location_id: null,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         category_id: 2,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         service_id: 63,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         provider_id: 31,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         client_id: 4263,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         duration: 20,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         client_time_offset: 0,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         service: null,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         provider: null,
+Mar 13, 02:02:14 PM: 62ebb39e INFO         location: [],
+Mar 13, 02:02:14 PM: 62ebb39e INFO         category: null
+Mar 13, 02:02:14 PM: 62ebb39e INFO       }
+Mar 13, 02:02:14 PM: 62ebb39e INFO     ],
+Mar 13, 02:02:14 PM: 62ebb39e INFO     batch: null,
+Mar 13, 02:02:14 PM: 62ebb39e INFO     invoice: null,
+Mar 13, 02:02:14 PM: 62ebb39e INFO     id: null
+Mar 13, 02:02:14 PM: 62ebb39e INFO   }
+Mar 13, 02:02:17 PM: 62ebb39e Duration: 2320.75 ms	Memory Usage: 135 MB	Init Duration: 603.52 ms
+Mar 13, 02:46:47 PM: 82313db2 INFO   createClientAndBooking->email rachel@pfefferberg.co.uk
+Mar 13, 02:46:47 PM: 82313db2 INFO   createClientAndBooking->response {
+Mar 13, 02:46:47 PM: 82313db2 INFO     bookings: [
+Mar 13, 02:46:47 PM: 82313db2 INFO       {
+Mar 13, 02:46:47 PM: 82313db2 INFO         id: 2709,
+Mar 13, 02:46:47 PM: 82313db2 INFO         is_confirmed: true,
+Mar 13, 02:46:47 PM: 82313db2 INFO         code: '16jc238phu',
+Mar 13, 02:46:47 PM: 82313db2 INFO         client_timezone: null,
+Mar 13, 02:46:47 PM: 82313db2 INFO         start_datetime: '2025-03-18 17:00:00',
+Mar 13, 02:46:47 PM: 82313db2 INFO         end_datetime: '2025-03-18 17:30:00',
+Mar 13, 02:46:47 PM: 82313db2 INFO         record_date: '2025-03-13 12:46:50',
+Mar 13, 02:46:47 PM: 82313db2 INFO         location_id: null,
+Mar 13, 02:46:47 PM: 82313db2 INFO         category_id: 5,
+Mar 13, 02:46:47 PM: 82313db2 INFO         service_id: 14,
+Mar 13, 02:46:47 PM: 82313db2 INFO         provider_id: 28,
+Mar 13, 02:46:47 PM: 82313db2 INFO         client_id: 4264,
+Mar 13, 02:46:47 PM: 82313db2 INFO         duration: 30,
+Mar 13, 02:46:47 PM: 82313db2 INFO         client_time_offset: 0,
+Mar 13, 02:46:47 PM: 82313db2 INFO         service: null,
+Mar 13, 02:46:47 PM: 82313db2 INFO         provider: null,
+Mar 13, 02:46:47 PM: 82313db2 INFO         location: [],
+Mar 13, 02:46:47 PM: 82313db2 INFO         category: null
+Mar 13, 02:46:47 PM: 82313db2 INFO       }
+Mar 13, 02:46:47 PM: 82313db2 INFO     ],
+Mar 13, 02:46:47 PM: 82313db2 INFO     batch: null,
+Mar 13, 02:46:47 PM: 82313db2 INFO     invoice: null,
+Mar 13, 02:46:47 PM: 82313db2 INFO     id: null
+Mar 13, 02:46:47 PM: 82313db2 INFO   }
+Mar 13, 02:46:50 PM: 82313db2 Duration: 2337.50 ms	Memory Usage: 135 MB	Init Duration: 627.82 ms
+Mar 13, 03:25:08 PM: f87d828d INFO   createClientAndBooking->email asa@gmail.com
+Mar 13, 03:25:08 PM: f87d828d INFO   createClientAndBooking->response {
+Mar 13, 03:25:08 PM: f87d828d INFO     bookings: [
+Mar 13, 03:25:08 PM: f87d828d INFO       {
+Mar 13, 03:25:08 PM: f87d828d INFO         id: 2712,
+Mar 13, 03:25:08 PM: f87d828d INFO         is_confirmed: true,
+Mar 13, 03:25:08 PM: f87d828d INFO         code: '16jc23by3o',
+Mar 13, 03:25:08 PM: f87d828d INFO         client_timezone: null,
+Mar 13, 03:25:08 PM: f87d828d INFO         start_datetime: '2025-03-13 17:30:00',
+Mar 13, 03:25:08 PM: f87d828d INFO         end_datetime: '2025-03-13 17:50:00',
+Mar 13, 03:25:08 PM: f87d828d INFO         record_date: '2025-03-13 13:25:11',
+Mar 13, 03:25:08 PM: f87d828d INFO         location_id: null,
+Mar 13, 03:25:08 PM: f87d828d INFO         category_id: 2,
+Mar 13, 03:25:08 PM: f87d828d INFO         service_id: 63,
+Mar 13, 03:25:08 PM: f87d828d INFO         provider_id: 9,
+Mar 13, 03:25:08 PM: f87d828d INFO         client_id: 4267,
+Mar 13, 03:25:08 PM: f87d828d INFO         duration: 20,
+Mar 13, 03:25:08 PM: f87d828d INFO         client_time_offset: 0,
+Mar 13, 03:25:08 PM: f87d828d INFO         service: null,
+Mar 13, 03:25:08 PM: f87d828d INFO         provider: null,
+Mar 13, 03:25:08 PM: f87d828d INFO         location: [],
+Mar 13, 03:25:08 PM: f87d828d INFO         category: null
+Mar 13, 03:25:08 PM: f87d828d INFO       }
+Mar 13, 03:25:08 PM: f87d828d INFO     ],
+Mar 13, 03:25:08 PM: f87d828d INFO     batch: null,
+Mar 13, 03:25:08 PM: f87d828d INFO     invoice: null,
+Mar 13, 03:25:08 PM: f87d828d INFO     id: null
+Mar 13, 03:25:08 PM: f87d828d INFO   }
+Mar 13, 03:25:10 PM: f87d828d Duration: 2355.68 ms	Memory Usage: 135 MB	Init Duration: 523.92 ms
+Mar 13, 03:31:26 PM: 18dd7c3e INFO   createClientAndBooking->email rodney@outlook.com
+Mar 13, 03:31:26 PM: 18dd7c3e INFO   createClientAndBooking->response {
+Mar 13, 03:31:26 PM: 18dd7c3e INFO     bookings: [
+Mar 13, 03:31:26 PM: 18dd7c3e INFO       {
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         id: 2713,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         is_confirmed: true,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         code: '16jc23c8hh',
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         client_timezone: null,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         start_datetime: '2025-03-13 16:50:00',
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         end_datetime: '2025-03-13 17:10:00',
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         record_date: '2025-03-13 13:31:29',
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         location_id: null,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         category_id: 4,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         service_id: 61,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         provider_id: 9,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         client_id: 4268,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         duration: 20,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         client_time_offset: 0,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         service: null,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         provider: null,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         location: [],
+Mar 13, 03:31:26 PM: 18dd7c3e INFO         category: null
+Mar 13, 03:31:26 PM: 18dd7c3e INFO       }
+Mar 13, 03:31:26 PM: 18dd7c3e INFO     ],
+Mar 13, 03:31:26 PM: 18dd7c3e INFO     batch: null,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO     invoice: null,
+Mar 13, 03:31:26 PM: 18dd7c3e INFO     id: null
+Mar 13, 03:31:26 PM: 18dd7c3e INFO   }
+Mar 13, 03:31:28 PM: 18dd7c3e Duration: 2431.51 ms	Memory Usage: 135 MB	Init Duration: 544.38 ms
+Mar 13, 03:46:12 PM: 11320242 INFO   createClientAndBooking->email mariannakaravageli@yahoo.com
+Mar 13, 03:46:12 PM: 11320242 INFO   createClientAndBooking->response {
+Mar 13, 03:46:12 PM: 11320242 INFO     bookings: [
+Mar 13, 03:46:12 PM: 11320242 INFO       {
+Mar 13, 03:46:12 PM: 11320242 INFO         id: 2714,
+Mar 13, 03:46:12 PM: 11320242 INFO         is_confirmed: true,
+Mar 13, 03:46:12 PM: 11320242 INFO         code: '16jc23d3z5',
+Mar 13, 03:46:12 PM: 11320242 INFO         client_timezone: null,
+Mar 13, 03:46:12 PM: 11320242 INFO         start_datetime: '2025-03-22 12:25:00',
+Mar 13, 03:46:12 PM: 11320242 INFO         end_datetime: '2025-03-22 12:45:00',
+Mar 13, 03:46:12 PM: 11320242 INFO         record_date: '2025-03-13 13:46:15',
+Mar 13, 03:46:12 PM: 11320242 INFO         location_id: null,
+Mar 13, 03:46:12 PM: 11320242 INFO         category_id: 2,
+Mar 13, 03:46:12 PM: 11320242 INFO         service_id: 65,
+Mar 13, 03:46:12 PM: 11320242 INFO         provider_id: 17,
+Mar 13, 03:46:12 PM: 11320242 INFO         client_id: 4269,
+Mar 13, 03:46:12 PM: 11320242 INFO         duration: 20,
+Mar 13, 03:46:12 PM: 11320242 INFO         client_time_offset: 0,
+Mar 13, 03:46:12 PM: 11320242 INFO         service: null,
+Mar 13, 03:46:12 PM: 11320242 INFO         provider: null,
+Mar 13, 03:46:12 PM: 11320242 INFO         location: [],
+Mar 13, 03:46:12 PM: 11320242 INFO         category: null
+Mar 13, 03:46:12 PM: 11320242 INFO       }
+Mar 13, 03:46:12 PM: 11320242 INFO     ],
+Mar 13, 03:46:12 PM: 11320242 INFO     batch: null,
+Mar 13, 03:46:12 PM: 11320242 INFO     invoice: null,
+Mar 13, 03:46:12 PM: 11320242 INFO     id: null
+Mar 13, 03:46:12 PM: 11320242 INFO   }
+Mar 13, 03:46:15 PM: 11320242 Duration: 2315.74 ms	Memory Usage: 135 MB	Init Duration: 585.11 ms

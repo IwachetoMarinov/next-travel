@@ -14,7 +14,7 @@ interface IProps {
 }
 
 const EventView = ({ data }: IProps) => {
-  console.log("Evemt", data);
+  console.log("Evemt data", data);
 
   const sideBarData = getSideBarData(data);
 
@@ -61,7 +61,13 @@ const EventView = ({ data }: IProps) => {
 
         {/* Sidebar */}
         <div className="col-span-1">
-          <EventSidebar data={sideBarData} />
+          <EventSidebar
+            data={sideBarData}
+            mapData={{
+              lat: data?.lat ? +data.lat : 0,
+              lng: data?.long ? +data.long : 0,
+            }}
+          />
         </div>
       </section>
     </>
